@@ -18,7 +18,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 // 
-                sh 'npx semantic-release'
+                sh 'npm semantic-release'
             }
         }
     }
