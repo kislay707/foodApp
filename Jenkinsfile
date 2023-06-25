@@ -18,7 +18,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 // 
-                echo 'cds'
+                sh 'npx semantic-release'
             }
         }
     }
